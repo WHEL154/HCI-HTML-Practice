@@ -1,0 +1,77 @@
+body {
+    font: arial;
+  }
+
+.header {
+    background-image: url('background.jpg');
+    opacity: 0.7;
+    height: 160px;
+    width: 100%;
+    margin-top:0;
+  }
+  
+.h1 {
+    color: rgb(0, 0, 0);
+    font: arial;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+
+  }
+
+.flexbox {
+    text-align: center;
+}
+
+.fruitfoto {
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+
+.grids{
+    margin-left: 40px;
+    display: block;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.fruit{
+    font-size: 40px;
+    margin-bottom: -6px;
+    margin-top: 10px;
+}
+
+.origin{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.price{
+    margin-top: 13px;
+    margin-bottom: 9px;
+}
+
+.Cart{
+    background-color: greenyellow;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    height: 32px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.boxposition{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    object-position: center;
+}
+
